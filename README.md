@@ -6,8 +6,6 @@ OpenUp AI is an intelligent, emotion-aware, Retrieval-Augmented Generation (RAG)
 
 ## 🔥 Why This Project Stands Out
 
-As a recruiter, here’s why this project deserves your attention:
-
 ✅ **Real-World Impact**: Tackles mental health with AI-driven empathy  
 ✅ **ML-Powered Intelligence**: Emotion detection, few-shot prompting, and semantic retrieval  
 ✅ **RAG Pipeline**: Combines LLMs with a fine-tuned semantic knowledge retriever  
