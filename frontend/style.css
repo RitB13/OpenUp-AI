@@ -1,0 +1,161 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, 
+    #e8f4fd 0%, 
+    #f0f8ff 15%, 
+    #f8fafc 25%, 
+    #f1f5f9 35%, 
+    #e2e8f0 45%, 
+    #e0f2fe 55%, 
+    #dcfce7 65%, 
+    #f0fdf4 75%, 
+    #ecfdf5 85%, 
+    #d1fae5 100%);
+  min-height: 100vh;
+  color: #1f2937;
+  background-attachment: fixed;
+  background-size: 400% 400%;
+  animation: gradientShift 20s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, 
+    #e8f4fd 0%, 
+    #f0f8ff 15%, 
+    #f8fafc 25%, 
+    #f1f5f9 35%, 
+    #e2e8f0 45%, 
+    #e0f2fe 55%, 
+    #dcfce7 65%, 
+    #f0fdf4 75%, 
+    #ecfdf5 85%, 
+    #d1fae5 100%);
+  color: #1f2937;
+}
+
+.chat-bubble-user {
+  background-color: #e2f5ff;
+  border-radius: 18px 18px 0 18px;
+  max-width: 80%;
+  align-self: flex-end;
+}
+
+.chat-bubble-ai {
+  background-color: #f0f4f8;
+  border-radius: 18px 18px 18px 0;
+  max-width: 80%;
+  align-self: flex-start;
+}
+
+.typing-dots {
+  display: inline-block;
+}
+
+.typing-dots span {
+  height: 8px;
+  width: 8px;
+  float: left;
+  margin: 0 1px;
+  background-color: #64748b;
+  border-radius: 50%;
+  display: block;
+}
+
+.typing-dots span:nth-child(1) {
+  animation: bounce 1s infinite 0.1s;
+}
+
+.typing-dots span:nth-child(2) {
+  animation: bounce 1s infinite 0.2s;
+}
+
+.typing-dots span:nth-child(3) {
+  animation: bounce 1s infinite 0.3s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.icon-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.disclaimer-box {
+  background: rgba(254, 243, 199, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 32px 0;
+}
+
+.pill-badge {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #1e293b;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+.start-btn {
+  background: linear-gradient(135deg, #0ea5e9, #06b6d4);
+  border: none;
+  border-radius: 24px;
+  padding: 12px 32px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 15px rgba(6, 182, 212, 0.4);
+}
+
+.start-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(6, 182, 212, 0.6);
+  background: linear-gradient(135deg, #0284c7, #0891b2);
+}
