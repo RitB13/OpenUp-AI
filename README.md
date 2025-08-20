@@ -3,7 +3,7 @@
 OpenUp AI is an intelligent, emotion-aware, Retrieval-Augmented Generation (RAG) based mental wellness companion built with cutting-edge NLP technologies. This project combines LLMs, custom-trained sentence embeddings, and emotion detection to deliver empathetic, personalized, and context-aware therapeutic conversations.
 
 ---
-https://drive.google.com/file/d/1GeOY1VQXkYPn4gjnJet-4jAbv0UQMx8F/view?usp=sharing
+![Alt text](https://drive.google.com/uc?export=view&id=uc?export=view&id=1GeOY1VQXkYPn4gjnJet-4jAbv0UQMx8F)
 
 ## 🔥 Why This Project Stands Out
 
