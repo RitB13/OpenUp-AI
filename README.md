@@ -61,6 +61,7 @@ OpenUp AI is an intelligent, emotion-aware, Retrieval-Augmented Generation (RAG)
 ---
 
 ## 📁 Project Structure
+```bash
 OpenUp-AI/
 │
 ├── app.py 
@@ -93,6 +94,7 @@ OpenUp-AI/
 │
 ├── config/
 │ └── generation_config.py
+```
 
 ## ⚡ TL;DR — System Flow
 
